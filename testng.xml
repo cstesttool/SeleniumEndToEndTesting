@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="beforeTest_example">
+	<test name="TestBlock1">
+		<classes>
+			<class name="com.testng.ClassA"></class>
+			<class name="com.testng.ClassB"></class>
+			<class name="com.testng.TC07_BeforeSuite"></class>
+		</classes>
+	</test>
+</suite>

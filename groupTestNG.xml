@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="beforeTest_example">
+	<test name="TestBlock1">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testng.TC06_BeforeClass"></class>
+			<class name="com.testng.ClassA"></class>
+		</classes>
+	</test>
+</suite>

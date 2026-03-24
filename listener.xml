@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="beforeTest_example">
+	<listeners>
+		<listener class-name="com.testng.MyListener"></listener>
+	</listeners>
+	<test name="TestBlock1">
+		<classes>
+			<class name="com.testng.TC10_TestListener"></class>
+		</classes>
+	</test>
+</suite>
